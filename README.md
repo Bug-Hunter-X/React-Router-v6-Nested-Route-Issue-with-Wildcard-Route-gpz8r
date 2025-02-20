@@ -1,0 +1,1 @@
+This repository demonstrates a bug in React Router v6 where nested routes fail to render correctly when a parent route uses a wildcard route (`*`). The issue arises because the wildcard route captures all paths, preventing nested routes from being matched. The solution involves restructuring the routes to avoid this conflict.
